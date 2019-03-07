@@ -1,6 +1,24 @@
 body {
-  background-color: #ff0000;
+  background-color: #ffffff;
   color: #0000FF;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 200;
+}
+
+h1  {
+  font-size: 2.3em;
+  padding-top: 24px;
+  color: #cc7a00;
+  font-weight: 100;
+}
+
+h3  {
+  font-size: 1.1em;
+  font-weight: 600;
+  padding-top: 20px;
+  color: #cc7a00;
 }
 
 nav {
@@ -8,6 +26,17 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+p {
+  padding-top: 18px;
+  color: #4a4a4a;
+}
+
+.author {
+  font-style: italic;
+  color: #cc7a00;
+  padding-bottom: 10px;
 }
 
 .logo {
@@ -20,7 +49,7 @@ nav {
 }
 
 .medium-pic {
-  width: 70%;
+  width: 50%;
 }
 
 .left, .right {
@@ -30,6 +59,20 @@ nav {
 
 .right {
   float: right;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #ffd699;
+}
+
+figcaption  {
+  font-style: italic;
+  font-size: .9em;
+  color: #4a4a4a;
 }
 
 ul {
